@@ -65,7 +65,7 @@ int main()
     printf("Enter number of elements: ");
     scanf("%d", &n);
 
-    int arr[n];
+    int arr[n];//srv
 
     printf("Enter elements:\n");
     for (i = 0; i < n; i++)
