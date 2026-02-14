@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void selectionSort(int arr[], int n) {
-    //write your code here...
+    //write your code here...srv
 	int i,min , temp,j;
 
     for (i=0;i<n-1;i++)
@@ -38,7 +38,7 @@ int main() {
     // Sort the array in descending order using selection sort
     selectionSort(arr, n);
 
-    // Output the sorted array
+    // Output the sorted array-srv
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
